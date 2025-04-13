@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  overflow-y: hidden;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  min-width: 0;
+  margin-left: 18vw; 
+}
+
+.chart-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
