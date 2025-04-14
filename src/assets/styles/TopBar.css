@@ -74,6 +74,10 @@
   cursor: pointer;
 }
 
+.Search {
+  color: black;
+}
+
 @media (max-width: 768px) {
   .top-bar {
     width: 95vw;
