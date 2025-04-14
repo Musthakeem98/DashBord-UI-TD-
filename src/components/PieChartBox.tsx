@@ -35,7 +35,7 @@ const PieChartBox: React.FC = () => {
             data={data}
             cx="40%"
             cy="50%"
-            outerRadius={80}
+            outerRadius={70}
             dataKey="value"
             label={false}
           >

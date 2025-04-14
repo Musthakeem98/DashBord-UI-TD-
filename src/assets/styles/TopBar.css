@@ -92,11 +92,16 @@
   }
 
   .search-bar input {
-    font-size: 10px;
+    font-size: 8px;
+    margin: 0;
   }
 
   .search-bar {
     width: 20vw;
+  }
+
+  .right-section {
+    gap: 5px;
   }
 }
 
