@@ -58,6 +58,7 @@
   padding: 6px 10px;
   border-radius: 8px;
   background: transparent;
+  width: 15vw;
 }
 
 .search-bar input {
@@ -88,6 +89,14 @@
 
   .master-topic {
     font-size: 18px;
+  }
+
+  .search-bar input {
+    font-size: 10px;
+  }
+
+  .search-bar {
+    width: 20vw;
   }
 }
 
