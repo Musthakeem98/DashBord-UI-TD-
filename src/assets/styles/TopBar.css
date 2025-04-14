@@ -55,6 +55,7 @@
   display: flex;
   align-items: center;
   border: 1px solid #000;
+  color: #000;
   padding: 6px 10px;
   border-radius: 8px;
   background: transparent;
@@ -74,8 +75,8 @@
   cursor: pointer;
 }
 
-.Search {
-  color: black;
+.search-icon {
+  color: #000;
 }
 
 @media (max-width: 768px) {

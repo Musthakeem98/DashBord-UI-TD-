@@ -15,7 +15,7 @@ const TopBar: React.FC = () => {
 
       <div className="right-section">
         <div className="search-bar">
-          <Search style={{ color: '#0000' }}/>
+          <Search className="search-icon" />
           <input type="text" placeholder="Search here" />
         </div>
         <Person className="top-icon" />
