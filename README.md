@@ -1,54 +1,109 @@
-# React + TypeScript + Vite
+# 📊 Material-Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Material-Dashboard** — a front-end skill test project built to demonstrate design accuracy, responsiveness, and code quality using modern tools and best practices. 🚀
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+| Tool / Library              | Purpose                                       |
+|----------------------------|-----------------------------------------------|
+| ⚛️ React                   | Front-end development framework               |
+| 🧱 HTML                    | Page structure                                |
+| 🎨 CSS                     | Custom styling without external frameworks    |
+| 🧠 JavaScript              | Application logic                             |
+| ⚡ Vite                    | Fast development server and bundler           |
+| 📊 Recharts               | Data visualization and charts                 |
+| 🧩 @mui/icons-material     | Material UI icons                             |
+| 🌐 GitHub Pages            | Hosting the application                       |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📁 Project Structure
+
+```
+dashboard-ui/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── styles/
+│   │       ├── App.css
+│   │       ├── BarChartAge.css
+│   │       ├── DashboardCards.css
+│   │       ├── PieChartBox.css
+│   │       ├── RevenueChart.css
+│   │       ├── SalesByCountry.css
+│   │       ├── Sidebar.css
+│   │       ├── TopBar.css
+│   │       ├── TopSellingProducts.css
+│   ├── components/
+│   │   ├── BarChartAge.tsx
+│   │   ├── DashboardCards.tsx
+│   │   ├── PieChartBox.tsx
+│   │   ├── RevenueChart.tsx
+│   │   ├── SalesByCountry.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── TopBar.tsx
+│   │   └── TopSellingProducts.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── index.html
+├── tsconfig.json
+├── package.json
+├── .gitignore
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📐 Key Highlights
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+- 🎯 **Accurate design replication**
+- 📱 **Responsive design** for all screen sizes
+- ✨ **Optimized code structure** with minimal redundancy
+- 🧼 **Raw CSS styling** — no external CSS libraries used
+- 📦 **Component-based architecture**
+- 🧩 **Custom and reusable components**
+
+---
+
+## 🚀 Getting Started
+
+To run the application locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/material-dashboard.git
+
+# Navigate to the project directory
+cd material-dashboard
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
+
+The application will now be running at `http://localhost:5173` by default.
+
+---
+
+## 🌍 Live Demo
+
+👉 Check out the hosted version here: [GitHub Pages Link](https://your-username.github.io/material-dashboard)
+
+---
+
+## 🙌 Acknowledgements
+
+This project was built as a frontend skills demonstration. Special attention was given to:
+
+- Clean code practices 🧹
+- Custom design implementations 🎨
+- Efficient layout and logic ⚙️
+
+Thanks for checking it out! 💖
+
