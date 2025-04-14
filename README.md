@@ -75,10 +75,10 @@ To run the application locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/material-dashboard.git](https://github.com/Musthakeem98/Material-Dashboard.git
+git clone https://github.com/Musthakeem98/Material-Dashboard.git
 
 # Navigate to the project directory
-cd material-dashboard
+cd Material-Dashboard
 
 # Install dependencies
 npm install
