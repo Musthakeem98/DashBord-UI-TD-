@@ -1,0 +1,32 @@
+.revenue-chart-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  flex: 2;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.chart-title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #3b3d41;
+  text-transform: uppercase;
+}
+
+.chart-info-icon {
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.chart-info-icon:hover {
+  color: #007bff;
+}
