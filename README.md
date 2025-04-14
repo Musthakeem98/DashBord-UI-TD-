@@ -75,7 +75,7 @@ To run the application locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/material-dashboard.git
+git clone https://github.com/your-username/material-dashboard.git](https://github.com/Musthakeem98/Material-Dashboard.git
 
 # Navigate to the project directory
 cd material-dashboard
@@ -93,7 +93,7 @@ The application will now be running at `http://localhost:5173` by default.
 
 ## 🌍 Live Demo
 
-👉 Check out the hosted version here: [GitHub Pages Link](https://your-username.github.io/material-dashboard)
+👉 Check out the hosted version here: [GitHub Pages Link](https://musthakeem98.github.io/Material-Dashboard/)
 
 ---
 
