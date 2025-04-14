@@ -35,7 +35,7 @@ const PieChartBox: React.FC = () => {
             data={data}
             cx="40%"
             cy="50%"
-            outerRadius={70}
+            outerRadius={65}
             dataKey="value"
             label={false}
           >
@@ -47,7 +47,7 @@ const PieChartBox: React.FC = () => {
             ))}
           </Pie>
           <Tooltip />
-          <Legend layout="vertical" verticalAlign="middle" align="right" wrapperStyle={{ paddingRight: 50 }} />
+          <Legend layout="vertical" verticalAlign="middle" align="right" wrapperStyle={{ paddingRight: 30 }} />
         </PieChart>
       </ResponsiveContainer>
 
