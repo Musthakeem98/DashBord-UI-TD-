@@ -55,4 +55,8 @@
   .dashboard-cards {
     flex-direction: column;
   }
+
+  .card-title {
+    font-size: 8px;
+  }
 }

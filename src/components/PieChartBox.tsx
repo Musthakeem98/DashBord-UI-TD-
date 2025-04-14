@@ -17,7 +17,7 @@ const data = [
   { name: 'Referral', value: 200 },
 ];
 
-const COLORS = ['#6366f1', '#10b981', '#f59e0b', '#ef4444'];
+const COLORS = ['#3f3f3f', '#10b981', '#b22727', '#0084bd'];
 
 const PieChartBox: React.FC = () => {
   return (
