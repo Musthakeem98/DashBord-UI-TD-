@@ -1,0 +1,85 @@
+.chart-box {
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 25.8vw;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #1f2937;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+.info-icon {
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.chart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #475569;
+  max-width: 70%;
+}
+
+.read-more {
+  padding: 12px 20px;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.read-more:hover {
+  background-color: #e2e8f0;
+  transform: translateY(-1px);
+}
+
+.recharts-default-legend li {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 1024px) {
+  .chart-box {
+    flex: 1 1 100%;
+    max-width: 100% ;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-box {
+    flex: 1 1 100% ;
+    max-width: 100%;
+  }
+}
