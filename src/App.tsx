@@ -20,8 +20,10 @@ const App: React.FC = () => {
           <PieChartBox />
           <RevenueChart />
         </div>
-        <BarChartAge />
-        <SalesByCountry />
+        <div className="chart-row">
+          <BarChartAge />
+          <SalesByCountry />
+        </div>
         <TopSellingProducts />
       </div>
     </div>
