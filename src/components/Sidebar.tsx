@@ -6,7 +6,8 @@ import {
   Lock,
   ExpandMore,
   ExpandLess,
-  Category,
+  Layers,
+  Web,
   ViewModule,
   Task,
   Menu as MenuIcon,
@@ -89,7 +90,7 @@ const Sidebar: React.FC = () => {
               className={selectedItem === 'pages' ? 'active' : ''}
               onClick={() => handleMenuSelect('pages')}
             >
-              <Analytics /> Pages
+              <Web /> Pages
             </li>
             <li
               className={selectedItem === 'analytics' ? 'active' : ''}
@@ -118,7 +119,7 @@ const Sidebar: React.FC = () => {
               className={selectedItem === 'basic' ? 'active' : ''}
               onClick={() => handleMenuSelect('basic')}
             >
-              <Category /> Basic
+              <Layers /> Basic
             </li>
             <li
               className={selectedItem === 'components' ? 'active' : ''}
